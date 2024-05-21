@@ -2,7 +2,7 @@
 
 
 ## Overview
-This project aims to classify heart failure into two classes: 0 (no heart failure) and 1 (heart failure). The dataset is preprocessed using label encoding, one-hot encoding, and Min-Max scaling. A Convolutional Neural Network (CNN) model is used for the classification task.
+This project aims to classify heart failure into two classes: 0 (no heart failure) and 1 (heart failure). The dataset is preprocessed using label encoding, one-hot encoding, and Min-Max scaling. A Artifical Neural Network (ANN) model is used for the classification task.
 
 ## Dataset
 - **Classes**: 2 (0 for no heart failure, 1 for heart failure)
@@ -12,7 +12,7 @@ This project aims to classify heart failure into two classes: 0 (no heart failur
   - **Min-Max Scaling**: Scales the feature values to a range between 0 and 1.
 
 ## Model Structure
-The CNN model used for classification consists of the following layers:
+The ANN model used for classification consists of the following layers:
 - An input layer with 20 neurons, taking input of dimension 26 and using ReLU activation.
 - A hidden layer with 15 neurons and ReLU activation.
 - Another hidden layer with 8 neurons and ReLU activation.
